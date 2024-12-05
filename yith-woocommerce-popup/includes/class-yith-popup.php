@@ -79,7 +79,6 @@ if ( ! class_exists( 'YITH_Popup' ) ) {
 
 			$this->set_templates();
 
-			add_action( 'plugins_loaded', array( $this, 'plugin_fw_loader' ), 15 );
 			add_action( 'init', array( $this, 'create_post_type' ), 0 );
 			add_action( 'admin_init', array( $this, 'add_metabox' ), 1 );
 
@@ -158,23 +157,6 @@ if ( ! class_exists( 'YITH_Popup' ) ) {
 				return $this->_data[ $property ];
 			}
 		}
-
-		/**
-		 * Load YIT Plugin Framework
-		 *
-		 * @since  1.0.0
-		 * @return void
-		 */
-		public function plugin_fw_loader() {
-			if ( ! defined( 'YIT_CORE_PLUGIN' ) ) {
-				global $plugin_fw_data;
-				if ( ! empty( $plugin_fw_data ) ) {
-					$plugin_fw_file = array_shift( $plugin_fw_data );
-					require_once $plugin_fw_file;
-				}
-			}
-		}
-
 
 		/**
 		 * Get options from db

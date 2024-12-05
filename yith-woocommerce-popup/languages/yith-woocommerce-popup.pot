@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the YITH WooCommerce Popup package.
 msgid ""
 msgstr ""
-"Project-Id-Version: YITH WooCommerce Popup 1.43.0\n"
+"Project-Id-Version: YITH WooCommerce Popup 1.44.0\n"
 "Report-Msgid-Bugs-To: "
 "https://wordpress.org/support/plugin/yith-woocommerce-popup\n"
-"POT-Creation-Date: 2024-09-24 12:28:16+00:00\n"
+"POT-Creation-Date: 2024-12-05 13:39:38+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -30,75 +30,75 @@ msgstr ""
 msgid "Custom Form"
 msgstr ""
 
-#: includes/class-yith-popup.php:98
+#: includes/class-yith-popup.php:97
 msgid "Theme 1"
 msgstr ""
 
-#: includes/class-yith-popup.php:113
+#: includes/class-yith-popup.php:112
 #: plugin-options/metabox/ypop-cpt-metabox.php:53
 msgid "Popup"
 msgstr ""
 
-#: includes/class-yith-popup.php:114
+#: includes/class-yith-popup.php:113
 msgid "Parent Item:"
 msgstr ""
 
-#: includes/class-yith-popup.php:115
+#: includes/class-yith-popup.php:114
 msgid "All Popups"
 msgstr ""
 
-#: includes/class-yith-popup.php:116
+#: includes/class-yith-popup.php:115
 msgid "View Popup"
 msgstr ""
 
-#: includes/class-yith-popup.php:117 includes/class-yith-popup.php:118
+#: includes/class-yith-popup.php:116 includes/class-yith-popup.php:117
 msgid "Add New Popup"
 msgstr ""
 
-#: includes/class-yith-popup.php:119
+#: includes/class-yith-popup.php:118
 msgid "Edit Popup"
 msgstr ""
 
-#: includes/class-yith-popup.php:120
+#: includes/class-yith-popup.php:119
 msgid "Update Popup"
 msgstr ""
 
-#: includes/class-yith-popup.php:121
+#: includes/class-yith-popup.php:120
 msgid "Search Popup"
 msgstr ""
 
-#: includes/class-yith-popup.php:122
+#: includes/class-yith-popup.php:121
 msgid "Not found"
 msgstr ""
 
-#: includes/class-yith-popup.php:123
+#: includes/class-yith-popup.php:122
 msgid "Not found in Trash"
 msgstr ""
 
-#: includes/class-yith-popup.php:126
+#: includes/class-yith-popup.php:125
 msgid "yith_popup"
 msgstr ""
 
-#: includes/class-yith-popup.php:127
+#: includes/class-yith-popup.php:126
 msgid "Yith Popup Description"
 msgstr ""
 
-#: includes/class-yith-popup.php:271
+#: includes/class-yith-popup.php:253
 msgid "Title"
 msgstr ""
 
-#: includes/class-yith-popup.php:272
+#: includes/class-yith-popup.php:254
 #: plugin-options/metabox/ypop-cpt-metabox.php:48
 #: plugin-options/metabox/ypop-template.php:26
 #: plugin-options/metabox/ypop-template.php:31
 msgid "Template"
 msgstr ""
 
-#: includes/class-yith-popup.php:273
+#: includes/class-yith-popup.php:255
 msgid "Content Type"
 msgstr ""
 
-#: includes/class-yith-popup.php:274
+#: includes/class-yith-popup.php:256
 msgid "Active"
 msgstr ""
 
@@ -260,13 +260,13 @@ msgstr ""
 msgid "Mailchimp"
 msgstr ""
 
-#: init.php:35
+#: init.php:36
 msgid ""
 "You can't activate the free version of YITH WooCommerce Popup while you are "
 "using the premium one."
 msgstr ""
 
-#: init.php:135
+#: init.php:134
 msgid ""
 "YITH WooCommerce Popup is enabled but not effective. It requires "
 "WooCommerce in order to work."
@@ -813,12 +813,12 @@ msgid ""
 "more plugins for your e-commerce shop on <strong>YITH</strong></a>."
 msgstr ""
 
-#: includes/class-yith-popup.php:111
+#: includes/class-yith-popup.php:110
 msgctxt "Post Type General Name"
 msgid "Yith Popup"
 msgstr ""
 
-#: includes/class-yith-popup.php:112
+#: includes/class-yith-popup.php:111
 msgctxt "Post Type Singular Name"
 msgid "Yith Popup"
 msgstr ""
