@@ -31,12 +31,16 @@ $esclude_post_types = apply_filters(
 		'shop_webhook'      => 'shop_webhook',
 		'product_variation' => 'product_variation',
 		'contact-form'      => 'contact-form',
+		'yith-pos-store'    => 'yith-pos-store',
+		'yith-pos-register' => 'yith-pos-register',
+		'yith-pos-receipt'  => 'yith-pos-receipt',
 	)
 );
+
 $popup_list         = array(
-	'default' => __( 'Global setting options', 'yith-woocommerce-popup' ),
-	'disable' => __( 'Disable', 'yith-woocommerce-popup' ),
-) + YITH_Popup()->get_popups_list();
+	                      'default' => __( 'Global setting options', 'yith-woocommerce-popup' ),
+	                      'disable' => __( 'Disable', 'yith-woocommerce-popup' ),
+                      ) + YITH_Popup()->get_popups_list();
 
 $cpt_metabox = array(
 	'label'    => __( 'YITH WooCommerce Popup ', 'yith-woocommerce-popup' ),
