@@ -4,7 +4,7 @@ Tags: popup, popups, custom popup, woocommerce popup, pop-up
 Requires PHP: 7.4
 Requires at least: 6.8
 Tested up to: 7.0
-Stable tag: 1.56.0
+Stable tag: 1.57.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -59,6 +59,9 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 4. Popup in front page
 
 == Changelog ==
+
+= 1.57.0 - Released on 22 June 2026 =
+* New: support for WooCommerce 10.9
 
 = 1.56.0 - Released on 18 May 2026 =
 * New: support for WooCommerce 10.8
